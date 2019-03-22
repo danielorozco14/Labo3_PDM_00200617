@@ -15,6 +15,11 @@ public class ShareActivity extends AppCompatActivity {
         setContentView(R.layout.activity_share);
         mtextViewShared=findViewById(R.id.text_shareActivity);
         Intent mIntent = getIntent();
+
+
+
+
+
         if (mIntent!=null) {
             mtextViewShared.setText(mIntent.getStringExtra(Intent.EXTRA_TEXT));
         }
