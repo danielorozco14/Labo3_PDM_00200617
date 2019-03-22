@@ -3,21 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context=".Activity_Two">
 
-    <Button
-        android:id="@+id/bt_main"
+    <TextView
+        android:id="@+id/txt_activityTwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SEND"
-        android:textSize="24sp"/>
-    <Button
-        android:id="@+id/bt2_main"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="share"
-        android:textSize="24sp"/>
+        android:text="HOLAAAA"
+        android:textSize="48sp"
+        />
 
 </LinearLayout>
